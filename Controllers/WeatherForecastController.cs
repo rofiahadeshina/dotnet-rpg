@@ -23,7 +23,7 @@ namespace dotnet_rpg.Controllers
             _logger = logger;
         }
 
-        [HttpGet("getWeatherForecast")]
+        [HttpGet("WeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
